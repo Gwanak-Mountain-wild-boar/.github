@@ -6,13 +6,13 @@
 - **개발 기간**: 2026.02.19 ~ 2026.04.03
 - **개발 인원**: 6명
 
-![메인 화면 이미지 자리](/docs/images/main-screen.png)
+![메인 화면 이미지 자리](../docs/images/main-screen.png)
 
 ---
 
 **팀원 구성**
 
-![팀원 사진 자리](/docs/images/team-photo.png)
+![팀원 사진 자리](.../docs/images/team-photo.png)
 
 ---
 
@@ -32,8 +32,8 @@
 
   2. 백엔드 실행 (Spring Boot)
      - Windows: `backend\\gradlew.bat bootRun`
-     - macOS / Linux: `cd backend && ./gradlew bootRun`
-     - 또는 빌드: `./gradlew build` 후 `java -jar build/libs/*.jar`
+     - macOS / Linux: `cd backend && ../gradlew bootRun`
+     - 또는 빌드: `../gradlew build` 후 `java -jar build/libs/*.jar`
 
   3. 프론트엔드 실행
      - `cd frontend`
@@ -145,7 +145,7 @@ AI / FDS (fds/requirements.txt 기반)
 
 **시스템 아키텍처**
 
-![아키텍처 다이어그램 자리](/docs/images/architecture.png)
+![아키텍처 다이어그램 자리](../docs/images/architecture.png)
 
 ---
 
@@ -154,34 +154,34 @@ AI / FDS (fds/requirements.txt 기반)
 - 사용자
   - 회원가입 / 로그인 (JWT)
 
-    ![회원가입](/docs/images/member.png)
+    ![회원가입](../docs/images/member.png)
 
   - 지갑 연결 / 잔액 조회
 
-    ![지갑](/docs/images/wallet.png)
+    ![지갑](../docs/images/wallet.png)
 
   - 토큰 충전 / 토큰 환불
 
-    ![지갑](/docs/images/token.png)
+    ![지갑](../docs/images/token.png)
 
   - 기부 생성 및 상세 조회
 
-    ![기부](/docs/images/donation.png)
+    ![기부](../docs/images/donation.png)
 
 - 가맹점(매장)
   - QR 결제 처리 (PIN 입력 기반)
 
-    ![QR생성](/docs/images/QRCreate.png)
-    ![QR결제](/docs/images/QRPayment.png)
+    ![QR생성](../docs/images/QRCreate.png)
+    ![QR결제](../docs/images/QRPayment.png)
 
   - 정산 내역 조회
 
-    ![정산내역](/docs/images/refund.png)
+    ![정산내역](../docs/images/refund.png)
 
 - 블록체인 연동
   - 온체인 트랜잭션 발행 및 검증
 
-    ![블록체인 연동](/docs/images/blockchain.png)
+    ![블록체인 연동](../docs/images/blockchain.png)
 
 ---
 
@@ -292,12 +292,12 @@ fds/
 
 **프로젝트 산출물**
 
- - ERD 이미지: ![ERD 이미지 자리](/docs/images/erd.png)
+- ERD 이미지: ![ERD 이미지 자리](../docs/images/erd.png)
 - Swagger API Docs 스크린샷:
 
-  ![Swagger 이미지 자리](/docs/images/swagger1.png)
-  ![Swagger 이미지 자리](/docs/images/swagger2.png)
-  ![Swagger 이미지 자리](/docs/images/swagger3.png)
+  ![Swagger 이미지 자리](../docs/images/swagger1.png)
+  ![Swagger 이미지 자리](../docs/images/swagger2.png)
+  ![Swagger 이미지 자리](../docs/images/swagger3.png)
 
 - 영상 포트폴리오: [영상 포트폴리오](https://drive.google.com/file/d/1EDDcfZUcw1u8clD4E0x3XgERb2afjgO7/view?usp=drive_link)
 - 기능명세서: [기능명세서](https://www.notion.so/3104c470eb6981d48987fd4b3c54414d)
